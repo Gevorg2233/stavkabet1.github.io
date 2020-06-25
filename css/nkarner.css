@@ -1,0 +1,55 @@
+.nkartext{
+    display: flex;
+    max-width: 100%;
+    max-height: 100%
+}
+.textdec{
+    text-decoration: none;
+    color: black;
+    font-size: 45px;
+    font-family: sans-serif ;
+    margin-left: 100px;
+    margin-top: 85px;
+    
+
+   
+}
+.entatext{
+    font-size: 25px;
+    margin-top: 0px;
+    font-style: italic;
+    font-family: monospace;
+    font-weight: normal;
+}
+.nkartext{
+    display: flex;
+}
+
+@media screen and (max-width:321px){
+    .textdec{
+    margin-left: 30px;
+    margin-top: 8px;
+    font-size: 20PX;
+    margin-right: 15px;
+        
+    }
+    .entatext{
+        font-size: 15px;
+    }
+}   
+    
+@media screen and (max-width:724px){
+        .textdec{
+    margin-left: 0px;
+    margin-top: 5px;
+    font-size: 20PX;
+    margin-right: 15px;
+        
+    
+}
+     .entatext{
+        font-size: 17px;
+    
+}
+    
+    
